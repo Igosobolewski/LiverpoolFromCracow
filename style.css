@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.salah {
+    border: 2px black solid;
+    background-position: center;
+    cursor: pointer;
+    width: 500px;
+    height: 300px;
+}
+
+.salah:hover {
+    opacity: 60%;
+    transition: 800ms ease;
+}
